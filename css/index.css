@@ -1,20 +1,49 @@
+html, body {
+    font-family: 'Trirong', serif;
+    background-color: #D4F6BB;
+}
+
+
 .nav li {
     font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    /*color: #4B89A3;*/
+    /*border-radius: 10%;*/
 }
 
-h1 {
+.jumbotron h1 {
     text-align: center;
+    font-size: 100px;
+    font-family: 'Rubik', sans-serif;
+    color: #571B6B;
 }
 
-.glyphicon-envelope {
+.jumbotron .fa {
     color: #000;
-    height: 32px;
-    width: 32px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .jumbotron {
-    background-image: url("../img/jumbotron.jpg");
+    background-image: url("../img/jumbotron.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom:0;
+}
+
+.page-title {
+    background-color:#E9DDCD;
+    opacity:0.7;
+    margin:0;
+    padding:0;
+    width:100%;
+    text-align:center;
+}
+
+.thumbnail, img {
+    border-radius: 10%;
+}
+
+.main p {
+    font-size: 24px;
+    color: #33031C;
 }
