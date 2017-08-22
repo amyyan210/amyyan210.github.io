@@ -1,0 +1,20 @@
+.nav li {
+    font-size: 32px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.glyphicon-envelope {
+    color: #000;
+    height: 32px;
+    width: 32px;
+}
+
+.jumbotron {
+    background-image: url("../img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:0;
+}
