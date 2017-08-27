@@ -7,6 +7,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,700" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300i,500" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -24,9 +26,9 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <div class="navbar-header text-center">
+                <div class="name small-name hidden-sm hidden-md hidden-lg hidden-xl"><a href="index.html"><span class="name"><span class="firstName">Amy</span> Yanaway</a></span></a></div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -34,27 +36,21 @@
                 </button>
             </div>
 
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="hidden-xs"><a href="index.html"><span class="name"><span class="firstName">Amy</span> Yanaway</a></span></a></li>
                     <li><a href="#">About Me </a></li>
                     <li><a href="#">Resume </a></li>
                     <li><a href="#">Projects </a></li>
                 </ul>
-
-                <span class="name" style="float:none; display:inline-block; padding-top: 10px;"  >
-                        <a href="index.html"><span class="firstName">Amy</span> Yanaway</a>
-                </span>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="mailto:amy@yanaway.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
                     </li>
                     <li><a href="https://github.com/amyyan210" target="_blank"><i class="fa fa-github fa-2x"
                                                                                   aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/amy-yanaway-0a0a9b92" target="_blank"><i
-                            class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/amy-yanaway-0a0a9b92" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
                 </ul>
 
             </div><!-- /.navbar-collapse -->
@@ -67,11 +63,11 @@
 
     <div class="main container-fluid">
         <div class="row">
-            <div class="personal-photo col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <img class="img-responsive" src="img/IMG_1257.jpg" alt="personal photo">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img class="img-responsive personal-photo" src="img/IMG_1257.jpg" alt="personal photo">
             </div>
             <div class="home-text col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <p> A <a href="http://www.codeup.com" target="_blank">Codeup</a> student with a background in music theory, teaching, and administration seeking a career as a full-stack Java developer</p>
+                <p class="codeup"><a href="http://www.codeup.com" target="_blank">Codeup</a> student with a background in music theory, teaching, and administration seeking a career as a full-stack Java developer</p>
             </div>
         </div>
     </div>
