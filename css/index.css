@@ -1,11 +1,15 @@
 html, body {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
-    background-color: #D4F6BB;
+    background-color: #C6E5D9;
 }
 
 body {
     padding-top: 70px;
+}
+
+hr {
+    color: #777;
 }
 
 .navbar-collapse {
@@ -19,13 +23,13 @@ body {
 }
 
 .navbar {
-    background-color: #D4F6BB;
+    background-color: #C6E5D9;
     border: none;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #333333;
+    color: #777;
 }
 
 .navbar-left li {
@@ -70,7 +74,7 @@ body {
     margin-bottom: 50px;
 }
 
-.home-text {
+.home-text p {
     padding-left:50px;
     padding-right:50px;
 }
