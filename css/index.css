@@ -8,10 +8,6 @@ body {
     padding-top: 70px;
 }
 
-hr {
-    background-color: #777;
-}
-
 .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
@@ -29,11 +25,12 @@ hr {
 
 .navbar a {
     text-decoration: none;
-    color: #777;
 }
 
 .navbar-left li {
     font-size: 16px;
+    color: #C6A49A;
+    /*color: #777; default*/
 }
 
 .firstName {
@@ -59,12 +56,13 @@ hr {
 }
 
 .main p {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 200;
 }
 
 .codeup a {
     text-decoration: none;
+    color: #E94E77;
 }
 
 .personal-photo {
@@ -126,6 +124,7 @@ hr {
     width: 60%;
     min-width: 60%;
     height: 1900px;
+    border: hidden;
 }
 
 .resume-body {
