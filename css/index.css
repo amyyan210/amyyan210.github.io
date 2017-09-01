@@ -52,7 +52,11 @@ body {
 }
 
 .navbar-toggle {
+    /* To not take up space for centered header */
     margin-left: -59px;
+    display:block;
+    vertical-align:middle;
+    margin-right: auto;
 }
 
 .main p {
@@ -69,12 +73,16 @@ body {
     display: block;
     margin: 0 auto;
     max-width: 80%;
-    margin-bottom: 50px;
+    margin-bottom:30px;
 }
 
 .home-text p {
     padding-left:50px;
     padding-right:50px;
+}
+
+.home-text p:last-child {
+    padding-bottom:30px;
 }
 
 .project-container {
@@ -117,16 +125,30 @@ body {
     text-decoration: none;
 }
 
-/* Resume page */
-
 .resume {
     display: inline;
     width: 60%;
-    min-width: 60%;
-    height: 1900px;
+    min-width: 700px;
+    height: 1500px;
     border: hidden;
 }
 
 .resume-body {
     text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* To avoid crashing into hamburger menu on smaller screens*/
+    .name {
+        font-size: 1.5em;
+    }
+
+    .firstName {
+        font-size: .7em;
+    }
+
+    .home-text p {
+        font-size: 1.5em;
+    }
 }
