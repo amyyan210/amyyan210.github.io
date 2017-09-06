@@ -1,0 +1,72 @@
+* {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/08/13/6360670335816709561877596775_635838328234606825-1082304514_rainy_day_wallpaper_2.jpeg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'VT323', monospace;
+    font-size: 17px;
+
+}
+
+h1 {
+    /*font-family: 'Fredericka the Great', cursive;*/
+    /*font-family: 'Annie Use Your Telescope', cursive;*/
+    /*font-family: 'Nova Square', cursive;*/
+    /*font-family: 'Kranky', cursive;*/
+    font-family: 'Zeyada', cursive;
+    letter-spacing: 6px;
+    text-shadow: 2px 2px #000;
+    color: #fff;
+}
+
+.container {
+    padding: 2%;
+}
+
+.calc-body {
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.9);
+
+}
+input[type='text']
+{
+    border: transparent;
+    background-color: #fff;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-right: -7px;
+}
+input[type='text']:nth-of-type(2){
+    width: 13%;
+
+
+
+}
+
+input {
+    padding: 15px;
+
+}
+
+input[type=button] {
+    margin: 1px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    opacity: 0.7;
+    font-weight: bold;
+    width:54px;
+    display: inline-block;
+}

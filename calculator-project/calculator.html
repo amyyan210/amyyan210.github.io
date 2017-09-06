@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Fredericka+the+Great|Kranky|Nova+Square|VT323|Zeyada" rel="stylesheet">
+</head>
+<body>
+<h1>Save it for a rainy day</h1>
+<div class="container">
+    <div class="calc-body">
+    <div class="row">
+        <input type="text" id="left-operand" value="">
+        <input type="text" id="operatorId" value="">
+        <input type="text" id="right-operand" value="">
+    </div> <!-- Row 1: End -->
+    <div class="row">
+        <input type="button" class="button" id="btn-clear" value="C">
+        <input type="button" class="button special" id="btn-percent" value="%">
+        <input type="button" class="button special" id="btn-squared" value="x&sup2;">
+        <input type="button" class="button operatorClass" id="btn-divide" value="/">
+    </div>
+    <div class="row">
+        <input type="button" class="button number" id="btn1" value="1">
+        <input type="button" class="button number" id="btn2" value="2">
+        <input type="button" class="button number" id="btn3" value="3">
+        <input type="button" class="button operatorClass" id="btn-multiply" value="X">
+    </div>
+    <div class="row">
+        <input type="button" class="button number" id="btn4" value="4">
+        <input type="button" class="button number" id="btn5" value="5">
+        <input type="button" class="button number" id="btn6" value="6">
+        <input type="button" class="button operatorClass" id="btn-minus" value="-">
+    </div>
+    <div class="row">
+        <input type="button" class="button number" id="btn7" value="7">
+        <input type="button" class="button number" id="btn8" value="8">
+        <input type="button" class="button number" id="btn9" value="9">
+        <input type="button" class="button operatorClass" id="btn-plus" value="+">
+    </div>
+    <div class="row">
+        <input type="button" class="button number" id="btn-decimal" value=".">
+        <input type="button" class="button number" id="btn0" value="0">
+        <input type="button" class="button special" id="btn-sqrt" value="&#8730;">
+        <input type="button" class="button" id="btn-equal" value="=">
+    </div>
+    </div><!-- Calc Body -->
+</div> <!-- Container -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script text="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script text="text/javascript" src="calculator.js"></script>
+
+</body>
+</html>
