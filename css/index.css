@@ -21,6 +21,7 @@ body {
 .navbar {
     background-color: #C6E5D9;
     border: none;
+    margin-bottom: 0px;
 }
 
 .navbar a {
@@ -30,7 +31,6 @@ body {
 .navbar-left li {
     font-size: 16px;
     color: #C6A49A;
-    /*color: #777; default*/
 }
 
 .firstName {
@@ -109,21 +109,59 @@ body {
     margin: 10px auto;
 }
 
-@media screen and (max-width: 768px) {
-    /* To avoid crashing into hamburger menu on smaller screens*/
-    .name {
-        font-size: 1.5em;
-    }
+.middle a:hover, .middle a:active:hover, .middle a:visited:hover {
+    text-decoration: none;
+}
 
-    .firstName {
-        font-size: .7em;
-    }
+.project-container {
+    position: relative;
+    padding-bottom: 30px;
+}
 
-    .home-text p {
-        font-size: 1.5em;
+.project-container .image {
+    opacity: 1;
+}
+
+
+.project-container:hover .image {
+    opacity: 0.3;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.text {
+    background-color: #D68189;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .personal-photo {
+        max-height: 80%;
     }
 }
 
+/* For md screens and up */
 @media screen and (min-width: 992px) {
 
     /*Try to fit the size of the image to the height of the page */
@@ -140,45 +178,51 @@ body {
 
 }
 
+
+/* For sm (769) and up */
 @media screen and (min-width: 769px) {
-
-    .project-container {
-        position: relative;
-        width: 50%;
-    }
-
-    .image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-
-    .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%)
-    }
-
-    .project-container:hover .image {
-        opacity: 0.3;
-    }
 
     .project-container:hover .middle {
         opacity: 1;
     }
 
+    .project-container .middle {
+        opacity: 0;
+    }
+
+}
+
+/* For xs screens */
+@media screen and (max-width: 767px) {
+    /* To avoid crashing into hamburger menu on smaller screens*/
+    .name {
+        font-size: 1.5em;
+    }
+
+    .firstName {
+        font-size: .7em;
+    }
+
+    .home-text p {
+        font-size: 1.5em;
+    }
+
     .text {
-        background-color: #D68189;
-        color: white;
-        font-size: 16px;
-        padding: 16px 32px;
-        text-decoration: none;
+        font-size: 1.5em;
+    }
+
+    .image {
+        max-width:80%;
+        margin: 0 auto;
     }
 }
+
+/* Screens that can't hover (xs and small) */
+@media screen and (max-width: 768px) {
+
+    .project-container .middle {
+        opacity: 1;
+    }
+
+}
+
