@@ -76,6 +76,12 @@ body {
     margin-bottom:30px;
 }
 
+#photos {
+    display: inline;
+    background-image: url("../img/myself.jpg");
+    background-size: 100%;
+}
+
 .home-text p {
     padding-left:50px;
     padding-right:50px;
