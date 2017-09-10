@@ -77,8 +77,8 @@ body {
 }
 
 #photos {
-    display: inline;
     background-image: url("../img/myself.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 
