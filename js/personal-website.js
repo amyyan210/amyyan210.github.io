@@ -44,6 +44,17 @@ $('#photos').mouseleave(function(){
 });
 
 
+// Flashing pointer functionality
+var pulse = $(".pulse");
+    pulse.hide();
+var pointer = $("#pointer");
+    pointer.hide();
+
+var delay = 5000;
+setInterval(function(){
+    pointer.fadeToggle();
+    pulse.fadeToggle();
+}, delay);
 
 
 // Download button on resume page
