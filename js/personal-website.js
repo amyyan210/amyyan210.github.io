@@ -20,7 +20,7 @@
 
 
 // Changing photo functionality
-var images = ['img/myself.jpg','img/ocean.jpg','img/cats.jpg','https://static1.squarespace.com/static/53dd6676e4b0fedfbc26ea91/54b6c509e4b062126976d942/57b48b1ee58c6277ad11e4bd/1471617363704/1024px-Southern_Vectis_311_HW54_BUO_and_Ryde_Tesco_bus_stop.JPG?format=1500w'];
+var images = ["img/myself.jpg", "img/sanantonio.jpg", "img/chalkboard.jpg", "img/cats.jpg", "img/space.jpg", "img/ocean.gif"];
 
 var counter = 0;
 
