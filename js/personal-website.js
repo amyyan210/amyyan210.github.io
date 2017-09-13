@@ -50,7 +50,7 @@ var pulse = $(".pulse");
 var pointer = $("#pointer");
     pointer.hide();
 
-var delay = 5000;
+var delay = 3000;
 setInterval(function(){
     pointer.fadeToggle();
     pulse.fadeToggle();

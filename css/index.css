@@ -21,7 +21,7 @@ body {
 .navbar {
     background-color: #C6E5D9;
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navbar a {
@@ -69,18 +69,17 @@ body {
     color: #E94E77;
 }
 
-/*#pointer {*/
-    /*float:left;*/
-    /*position:relative;*/
-/*}*/
-
 .pulse {
+    position: absolute;
+    z-index: 3;
+    top:-50px;
+    left:15px;
     margin:100px;
     display: block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #F4EAD5;
+    /*background: #F4EAD5;*/
     cursor: pointer;
     box-shadow: 0 0 0 rgba(204,169,44, 0.4);
     animation: pulse 2s infinite;
@@ -116,6 +115,8 @@ body {
 }
 
 .personal-photo {
+    position: relative;
+    z-index:1;
     display: block;
     margin: 0 auto;
     max-width: 80%;
