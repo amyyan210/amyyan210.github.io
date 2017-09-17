@@ -2,6 +2,12 @@
 
 "use strict";
 
+// Calculates left margin
+
+    function calculateLeftMargin (element) {
+        return ($(element).outerWidth(true) - $(element).outerWidth()) / 2;
+    }
+
 // Event listener to resize photo
     var photoResize = function(){
         if (window.innerWidth >= 1024) {
@@ -9,11 +15,16 @@
             $(".personal-photo").css("max-height", h + "px");
         } else {
             $(".personal-photo").css("max-height", "");
-
         }
+        var leftMargin = calculateLeftMargin(".personal-photo");
+
+        $(".pulse").css("left", $(".personal-photo").position().left + leftMargin + 10);
+
+        $(".pulse").css("top", $(".personal-photo").position().top + 10);
+
     };
 
-    $('.home-page').imagesLoaded( function() {
+    $('.home-page').imagesLoaded(function() {
         photoResize();
     });
 
@@ -53,7 +64,7 @@ var pulse = $(".pulse");
 var pointer = $("#pointer");
     pointer.hide();
 
-var delay = 3000;
+var delay = 5000;
 setInterval(function(){
     pointer.fadeToggle();
     pulse.fadeToggle();
