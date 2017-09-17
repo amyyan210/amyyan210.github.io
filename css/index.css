@@ -69,11 +69,13 @@ body {
     color: #E94E77;
 }
 
+#pointer {
+    opacity: 0.4;
+}
+
 .pulse {
     position: absolute;
     z-index: 3;
-    /*top:-50px;*/
-    /*left:15px;*/
     top: 0px;
     left: 0px;
     display: block;
@@ -122,6 +124,7 @@ body {
     margin: 0 auto;
     max-width: 80%;
     margin-bottom:30px;
+    cursor: pointer;
 }
 
 #photos {

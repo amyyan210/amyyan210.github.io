@@ -34,14 +34,14 @@
 
 
 // Changing photo functionality
-var images = ["img/myself.jpg", "img/sanantonio.jpg", "img/chalkboard.jpg", "img/cats.jpg", "img/space.jpg", "img/ocean.gif"];
+var images = ["img/myself.jpg", "img/code2.jpeg", "img/riverwalk.jpg", "img/map.jpg", "img/sheet-music.png", "img/college.jpg", "img/fall.gif", "img/snow.gif", "img/space.jpg", "img/ocean.gif", "img/cats.jpg"];
 
 var counter = 0;
 
 function nextImage() {
     counter++;
     if(counter >= images.length)
-        counter = 1;
+        counter = 0;
     swapImage(counter);
 }
 
@@ -50,12 +50,12 @@ function swapImage(index) {
     $('#photos').css('background-image','url("'+images[index]+'")');
 }
 
-$('#photos').mouseenter(function(){
+$('#photos').click(function(){
     nextImage();
 });
-$('#photos').mouseleave(function(){
-    swapImage(0);
-});
+// $('#photos').click(function(){
+//     swapImage(0);
+// });
 
 
 // Flashing pointer functionality
