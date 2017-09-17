@@ -13,7 +13,10 @@
         }
     };
 
-    $(document).ready(photoResize);
+    $('.home-page').imagesLoaded( function() {
+        photoResize();
+    });
+
     $(window).resize(photoResize);
 
 })();
