@@ -34,7 +34,7 @@
 
 
 // Changing photo functionality
-var images = ["img/myself.jpg", "img/code2.jpeg", "img/riverwalk.jpg", "img/map.jpg", "img/sheet-music.png", "img/college.jpg", "img/fall.gif", "img/snow.gif", "img/space.jpg", "img/ocean.gif", "img/cats.jpg"];
+var images = ["img/myself.jpg", "img/code.jpg", "img/riverwalk.jpg", "img/map.jpg", "img/sheet-music.png", "img/college.jpg", "img/fall.gif", "img/snow.gif", "img/space.jpg", "img/ocean.gif", "img/cats.jpg"];
 
 var counter = 0;
 

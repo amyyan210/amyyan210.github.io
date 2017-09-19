@@ -59,6 +59,10 @@ body {
     margin-right: auto;
 }
 
+#hidden-pictures {
+    display: none;
+}
+
 .main p {
     font-size: 2em;
     font-weight: 200;
@@ -159,6 +163,8 @@ body {
 
 .resume-body {
     text-align: center;
+    /*transform: scale(2, 2);*/
+    /*transform-origin: top;*/
 }
 
 #download {
