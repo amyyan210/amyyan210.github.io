@@ -34,7 +34,7 @@
 
 
 // Changing photo functionality
-var images = ["img/myself.jpg", "img/code.jpg", "img/riverwalk.jpg", "img/map.jpg", "img/sheet-music.png", "img/college.jpg", "img/fall.gif", "img/snow.gif", "img/space.jpg", "img/ocean.gif", "img/cats.jpg"];
+var images = ["img/myself.jpg", "img/code.jpg", "img/riverwalk.jpg", "img/map.jpg", "img/sheet-music.png", "img/college.jpg", "img/opera3.jpg", "img/beach.jpg", "img/fall.gif", "img/snow.gif", "img/space.jpg", "img/ocean.gif", "img/cats.jpg"];
 
 var counter = 0;
 
@@ -72,7 +72,7 @@ setInterval(function(){
 
 
 // Download button on resume page
-$("#download").click(function () {
-    window.open("https://docs.google.com/document/d/e/2PACX-1vTY5Ee_VJIzsFE0sWrrQ7iGiIzVmSD1b4EDJyidKgGlj1pbAg0LxGk_gkZOX8Yy-kNpSLNz-hu5diUe/pub", "_blank");
-});
+// $("#download").click(function () {
+//     window.open("https://docs.google.com/document/d/e/2PACX-1vSTFgYCHS3BuZ69-bRYvJuTXKlsguktGLFz8yCPXzjO8apbX8Pp3yMeTY9-sHYGcGueyz2JAd9oCjSq/pub", "_blank");
+// });
 

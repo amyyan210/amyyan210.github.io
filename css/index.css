@@ -156,9 +156,8 @@ body {
 .resume {
     display: inline;
     width: 60%;
-    min-width: 700px;
+    min-width: 500px;
     height: 100vh;
-    border: hidden;
 }
 
 .resume-body {
