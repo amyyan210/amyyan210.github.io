@@ -53,6 +53,7 @@ function swapImage(index) {
 $('#photos').click(function(){
     nextImage();
 });
+
 // $('#photos').click(function(){
 //     swapImage(0);
 // });
