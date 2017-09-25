@@ -126,6 +126,23 @@ body {
     }
 }
 
+
+/*Fade on click */
+/*#a-image, #b-image {*/
+    /*background-image: url('../img/myself.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*position: absolute;*/
+/*}*/
+/*#b-image {*/
+    /*z-index:2;*/
+/*}*/
+/*#a-image {*/
+    /*z-index:1;*/
+/*}*/
+
+/***/
+
 .personal-photo {
     position: relative;
     z-index:1;

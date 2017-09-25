@@ -45,15 +45,42 @@ function nextImage() {
     swapImage(counter);
 }
 
+// var swapping = false;
+// function swapImage(index) {
+//     var bck = 'url("'+images[index]+'")';
+//     $('#a-image').css('background-image',bck);
+//
+//     var callback = function(){
+//         swapping = false;
+//         $('#b-image').hide();
+//         $('#b-image').css('background-image',bck);
+//         $('#b-image').show();
+//         $('#b-image').fadeIn(0);
+//     };
+//     if(swapping) callback = function(){}
+//     swapping = true;
+//     $('#b-image').fadeOut(1000, callback);
+// }
+//
+// var timer = null;
+// $('#top-image').click(function(){
+//     clearTimeout(timer);
+//     nextImage();
+//     timer = setTimeout(swapImage,5000,0);
+// });
+
+
+
 function swapImage(index) {
     $('#photos').css('background-image','');
     $('#photos').css('background-image','url("'+images[index]+'")');
 }
 
-$('#photos').click(function(){
+$('.img-and-pointer').click(function(){
     nextImage();
 });
 
+// Had commented out before trying click fade
 // $('#photos').click(function(){
 //     swapImage(0);
 // });
@@ -76,10 +103,4 @@ setInterval(function(){
     pointer.fadeToggle();
     pulse.fadeToggle();
 }, delay);
-
-
-// Download button on resume page
-// $("#download").click(function () {
-//     window.open("https://docs.google.com/document/d/e/2PACX-1vSTFgYCHS3BuZ69-bRYvJuTXKlsguktGLFz8yCPXzjO8apbX8Pp3yMeTY9-sHYGcGueyz2JAd9oCjSq/pub", "_blank");
-// });
 
