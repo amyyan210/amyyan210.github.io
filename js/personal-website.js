@@ -59,6 +59,12 @@ $('#photos').click(function(){
 // });
 
 
+// Adding all images to HTML to preload images and reduce loading time
+for (let i = 0; i <= images.length; i++) {
+    $("#hidden-pictures").html("<img src=" + images[i] + ">");
+}
+
+
 // Flashing pointer functionality
 var pulse = $(".pulse");
     pulse.hide();
