@@ -90,7 +90,7 @@ $('.img-and-pointer').click(function(){
 
 
 // Adding all images to HTML to preload images and reduce loading time
-for (let i = 0; i <= images.length; i++) {
+for (let i = 0; i < images.length; i++) {
     $("#hidden-pictures").html("<img src=" + images[i] + ">");
 }
 
